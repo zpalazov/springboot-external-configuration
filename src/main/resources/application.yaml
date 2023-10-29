@@ -1,0 +1,12 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      discovery:
+        enabled: true
+
+service:
+  microservice-a:
+    host: localhost
+    port: 8060
